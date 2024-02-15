@@ -190,6 +190,7 @@ ul.menu-navbar ion-icon {
   padding: 10px;
   gap: 5px;
   width: 100%;
+  margin-bottom: 20px;
 }
 
 .header-about,
@@ -206,20 +207,19 @@ ul.menu-navbar ion-icon {
 }
 
 
-
-
-
-
 /* Tecnologías */
 
 .tecnologias {
   display: flex;
   flex-direction: row;
   width: 100%;
-  gap: 15px;
-
+  gap: 10px;
 }
 
+span h4 {
+  color: black;
+  font-size: 25px;
+}
 
 .front-end,
 .back-end,
@@ -227,22 +227,36 @@ ul.menu-navbar ion-icon {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: flex-start;
-  align-items: center;
-  gap: 30px;
-  padding: 10px;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 10px;
+  padding: 5px;
   border: 2px solid white;
   flex: 1 1;
-  max-height: max-content;
-  /* Ajusta el ancho del contenedor al contenido */
+  height: max-content;
   max-width: 100%;
-  /* Evita que el contenedor sobrepase el ancho de su padre */
   border-radius: 20px;
-  background-color: rgb(245, 245, 220);
+  background-color: rgb(245, 245, 220)
+}
 
+.logo {
+  width: 55px;
 }
 
 
-.logo {
-  width: 65px;
+
+/* Contacto */
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  gap: 25px;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  color: rgb(255, 136, 0);
+  font-weight: bold;
+  font-size: 25px;
+
 }
