@@ -33,19 +33,19 @@ body {
   height: 800px;
   border-radius: 25px;
   padding: 20px;
-  margin: 70px 5px 70px 300px;
+  margin: 50px 5px 70px 300px;
   background-color: rgba(0, 0, 0, 0.493);
   font-size: 1.2rem;
 }
 
-img {
+.avatar-img {
   border-radius: 25%;
   border: 1px solid rgba(255, 136, 1, 0.450);
   width: 160px;
   background-color: rgba(255, 136, 1, 0.050);
 }
 
-.avatar {
+.avatar-container {
   display: flex;
   padding: 10px;
   margin-bottom: 20px;
@@ -65,14 +65,18 @@ img {
   width: 250px;
 }
 
-.contact-title {
+.contact-title,
+.social-title {
   margin-bottom: 10px;
   font-weight: bold;
   color: rgb(255, 136, 0);
+  display: flex;
+  justify-content: center;
 }
 
 .contact-email {
   font-size: 17px;
+
 }
 
 a {
@@ -104,21 +108,25 @@ a {
   flex-direction: column;
   width: 100%;
 
+
+}
+
+/* Social Info */
+
+.social-info {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
 }
 
 /* Iconos Contacto  */
 .contact-info ion-icon {
   vertical-align: middle;
-  /* Alinea verticalmente con el texto */
   margin-right: 10px;
-  /* Ajusta el espacio entre el icono y el texto */
   font-size: 30px;
   box-shadow: 2px 2px 4px rgba(245, 132, 3, 0.4);
-  /* Agrega una sombra con desplazamiento de 2px horizontal y vertical, desenfoque de 4px y opacidad del 40% */
   border-radius: 20%;
-  /* Añade un borde redondeado para que la sombra se vea más natural en los bordes del icono */
   padding: 5px;
-  /* Ajusta el espacio alrededor del icono para que la sombra sea visible */
 
 }
 
@@ -128,10 +136,10 @@ a {
 .main {
   border: 2px solid rgba(255, 136, 0, 0.300);
   max-height: max-content;
-  height: 800px;
+  height: auto;
   border-radius: 25px;
   padding: 20px;
-  margin: 70px 300px 70px 5px;
+  margin: 50px 300px 70px 5px;
   background-color: rgba(0, 0, 0, 0.493);
   font-size: 1.2rem;
   margin-left: 20px;
@@ -162,7 +170,7 @@ ul.menu-navbar ion-icon {
 /* Estilo para el navbar */
 
 .navbar {
-  position: fixed;
+  position: absolute;
   right: 0;
   margin-right: 302px;
   padding: 10px;
@@ -184,8 +192,57 @@ ul.menu-navbar ion-icon {
   width: 100%;
 }
 
-.header-about {
+.header-about,
+.header-about-tecnologias {
   color: rgb(255, 136, 0);
   font-weight: bold;
   font-size: 35px;
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.header-about-tecnologias {
+  margin: 20px 0 20px 0px;
+}
+
+
+
+
+
+
+/* Tecnologías */
+
+.tecnologias {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  gap: 15px;
+
+}
+
+
+.front-end,
+.back-end,
+.tools {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 30px;
+  padding: 10px;
+  border: 2px solid white;
+  flex: 1 1;
+  max-height: max-content;
+  /* Ajusta el ancho del contenedor al contenido */
+  max-width: 100%;
+  /* Evita que el contenedor sobrepase el ancho de su padre */
+  border-radius: 20px;
+  background-color: rgb(245, 245, 220);
+
+}
+
+
+.logo {
+  width: 65px;
 }

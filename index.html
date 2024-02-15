@@ -15,8 +15,8 @@
   <aside class="asidebar">
 
     <div class="info-aside">
-      <figure class="avatar">
-        <img src="./img/Jack.png" alt="Avatar de JackDev">
+      <figure class="avatar-container">
+        <img class="avatar-img" src="./img/Jack.png" alt="Avatar de JackDev">
       </figure>
 
       <div class="content-info">
@@ -28,17 +28,23 @@
           <a href="mailto:jose.a.c.lopez@gmail.com" class="contact-email"><ion-icon name="mail-outline"></ion-icon>
             jose.a.c.lopez@gmail.com</a><br>
 
-          <p class="contact-title">Social</p>
-          <a href="https://www.linkedin.com/in/joseaclopez/" target="_blank" class="contact-linkedin"><ion-icon
-              name="logo-linkedin"></ion-icon> Linkedin</a><br>
+          <div class="social-info">
+            <p class="social-title">Social</p>
+            <a href="https://www.linkedin.com/in/joseaclopez/" target="_blank" class="contact-linkedin"><ion-icon
+                name="logo-linkedin"></ion-icon> Linkedin</a><br>
 
-          <a href="https://discord.com/users/690176825258934340" target="_blank" class="contact-discord"><ion-icon
-              name="logo-discord"></ion-icon>
-            Discord</a><br>
+            <a href="https://discord.com/users/690176825258934340" target="_blank" class="contact-discord"><ion-icon
+                name="logo-discord"></ion-icon>
+              Discord</a><br>
 
-          <a href="https://github.com/JackDev21" target="_blank" class="contact-github"><ion-icon
-              name="logo-github"></ion-icon>
-            Github</a><br>
+            <a href="https://github.com/JackDev21" target="_blank" class="contact-github"><ion-icon
+                name="logo-github"></ion-icon>
+              Github</a><br>
+            <a href="https: //codepen.io/JsP-J" target="_blank" class="contact-codepen"><ion-icon
+                name="logo-codepen"></ion-icon>
+              Codepen</a><br>
+          </div>
+
         </div>
       </div>
     </div>
@@ -49,12 +55,12 @@
       <ul class="menu-navbar">
         <li><a href="#"><ion-icon name="mail-outline"></ion-icon>Contacto</a></li>
         <li><a href="#"><ion-icon name="book-outline"></ion-icon>Proyectos</a></li>
-        <li><a href="#"><ion-icon name="home-outline"></ion-icon>Sobre mi</a></li>
+        <li><a href="#sobre-mi"><ion-icon name="home-outline"></ion-icon>Sobre mi</a></li>
       </ul>
     </nav>
 
     <article class="about">
-      <header class="header-about">Sobre mi</header>
+      <header class="header-about" id="sobre-mi">Sobre mi</header>
       <p class="text-about">Desde que comencé mi viaje en el mundo del desarrollo, he descubierto una pasión innegable
         por la creación de
         aplicaciones web y software. Disfruto enormemente del proceso de convertir ideas en productos tangibles y
@@ -68,7 +74,70 @@
       <p>Siempre estoy buscando nuevos desafíos y oportunidades para crecer tanto personal como profesionalmente.
         ¡Espero poder
         colaborar contigo y llevar tus ideas al siguiente nivel!</p>
+
+      <header class="header-about-tecnologias">Tecnologías</header>
+      <div class="tecnologias">
+        <div class="front-end">
+          <img class="logo" src="./logo/html-5-svgrepo-com.svg" alt="logo-html5">
+          <img class="logo" src="./logo/css-3-svgrepo-com.svg" alt="logo-css3">
+          <img class="logo" src="./logo/javascript-svgrepo-com.svg" alt="logo-javascript">
+          <img class="logo" src="./logo/react-svgrepo-com.svg" alt="logo-react">
+        </div>
+        <div class="back-end">
+          <img class="logo" src="./logo/node-js-svgrepo-com.svg" alt="logo-node">
+          <img class="logo" src="./logo/express-svgrepo-com.svg" alt="logo-express">
+          <img class="logo" src="./logo/typescript-svgrepo-com.svg" alt="logo-typescript">
+          <img class="logo" src="./logo/mongodb-logo-svgrepo-com.svg" alt="logo-mongodb">
+        </div>
+        <div class="tools">
+          <img class="logo" src="./logo/github-svgrepo-com.svg" alt="logo-github">
+          <img class="logo" src="./logo/git-svgrepo-com.svg" alt="logo-git">
+          <img class="logo" src="./logo/visual-studio-code-svgrepo-com.svg" alt="logo-visual-studio">
+          <img class="logo" src="./logo/npm-svgrepo-com.svg">
+          <img class="logo" src="./logo/terminal-svgrepo-com.svg" alt="logo-terminal">
+        </div>
+
     </article>
+
+
+    <article class="contact" data-page="contact">
+
+      <header>
+        <h2 class="h2 article-title">Contact</h2>
+      </header>
+
+      <section class="mapbox" data-mapbox>
+        <figure>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d24341.41777475487!2dLONGITUD_DE_ASPE!3dLATITUD_DE_ASPE!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd6234fd07a39e29%3A0x8d2c0221fd96229b!2sAspe%2C%20Alicante%2C%20Spain!5e0!3m2!1sen!2sbd!4v1647608789441!5m2!1sen!2sbd
+" width="400" height="300" loading="lazy"></iframe>
+        </figure>
+      </section>
+
+      <section class="contact-form">
+
+        <h3 class="h3 form-title">Contact Form</h3>
+
+        <form action="#" class="form" data-form>
+
+          <div class="input-wrapper">
+            <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
+
+            <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
+          </div>
+
+          <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+
+          <button class="form-btn" type="submit" disabled data-form-btn>
+            <ion-icon name="paper-plane"></ion-icon>
+            <span>Send Message</span>
+          </button>
+
+        </form>
+
+      </section>
+
+    </article>
+
 
   </main>
 
