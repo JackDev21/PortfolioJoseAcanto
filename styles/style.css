@@ -176,7 +176,7 @@ ul.menu-navbar ion-icon {
   padding: 10px;
   border-left: 2px solid rgba(255, 136, 0, 0.3);
   border-bottom: 2px solid rgba(255, 136, 0, 0.3);
-  top: 72px;
+  top: 52px;
   border-bottom-left-radius: 20px;
   z-index: 1;
 }
@@ -203,7 +203,8 @@ ul.menu-navbar ion-icon {
 }
 
 .header-about-tecnologias {
-  margin: 20px 0 20px 0px;
+  padding: 5px;
+  margin: 20px 0 30px 0px;
 }
 
 
@@ -213,36 +214,53 @@ ul.menu-navbar ion-icon {
   display: flex;
   flex-direction: row;
   width: 100%;
-  gap: 10px;
+  gap: 25px;
 }
 
 span h4 {
   color: black;
   font-size: 25px;
+  width: 100%;
+  padding: 5px;
+  margin: 10px;
 }
 
 .front-end,
 .back-end,
 .tools {
   display: flex;
+  width: 100%;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
-  align-items: flex-start;
-  gap: 10px;
-  padding: 5px;
+  align-items: center;
   border: 2px solid white;
   flex: 1 1;
   height: max-content;
   max-width: 100%;
   border-radius: 20px;
-  background-color: rgb(245, 245, 220)
+  background-color: rgba(245, 233, 220, 0.678);
+  box-shadow: rgba(252, 143, 0, 0.678) 0px 0px 15px 1px;
 }
 
 .logo {
-  width: 55px;
+  width: 100px;
+  filter: drop-shadow(15px 2px 4px rgba(0, 0, 0, 0.5));
+  /* Sombreado */
 }
 
+.logos-container {
+  display: flex;
+  padding: 10px;
+  margin: 10px;
+  gap: 20px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: flex-start;
+  height: 100%;
+  width: 100%;
+}
 
 
 /* Contacto */
