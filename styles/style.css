@@ -172,3 +172,20 @@ ul.menu-navbar ion-icon {
   border-bottom-left-radius: 20px;
   z-index: 1;
 }
+
+
+/* Sobre mi  */
+
+.about {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  gap: 5px;
+  width: 100%;
+}
+
+.header-about {
+  color: rgb(255, 136, 0);
+  font-weight: bold;
+  font-size: 35px;
+}
