@@ -163,6 +163,7 @@ ul.menu-navbar ion-icon {
 }
 
 
+
 /* Estilo para el navbar */
 
 .navbar {
@@ -176,6 +177,7 @@ ul.menu-navbar ion-icon {
   border-bottom-left-radius: 20px;
   z-index: 1;
 }
+
 
 
 /* Sobre mi  */
@@ -266,7 +268,8 @@ span h4 {
 }
 
 iframe {
-  width: 100%
+  width: 100%;
+  border-radius: 20px;
 }
 
 .contact {
