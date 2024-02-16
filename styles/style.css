@@ -481,8 +481,9 @@ iframe {
 
   .asidebar {
     position: relative;
-    width: 355px;
+    min-width: 355px;
     margin-top: 15px;
+    left: 1px;
   }
 
   .contact-email {
@@ -535,6 +536,7 @@ iframe {
 
   .main {
     position: relative;
+    left: 2px;
   }
 
   a {
@@ -544,7 +546,7 @@ iframe {
   .navbar {
     position: relative;
     top: -21px;
-    right: -56px;
+    right: -38px;
     width: 295px;
   }
 
