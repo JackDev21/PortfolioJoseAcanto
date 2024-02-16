@@ -454,7 +454,7 @@ iframe {
 
   .asidebar {
     width: 90%;
-    margin: 0;
+    margin-top: 20px;
     position: relative;
     top: 0;
   }
