@@ -376,6 +376,73 @@ iframe {
 
 /*Responsive */
 
+@media screen and (max-width: 1440px) {
+
+  .asidebar {
+    max-height: calc(105vh - 100px);
+    min-width: calc(60vh - 100px);
+    margin: 0 0 0 20px;
+  }
+
+
+  .main {
+    margin: 50px 20px 0px 20px;
+  }
+
+  .navbar {
+    margin-right: 22px;
+  }
+
+
+}
+
+
+
+@media screen and (max-width: 1024px) {
+
+  .asidebar {
+    max-height: calc(111vh - 100px);
+    min-width: calc(60vh - 100px);
+    margin: 10px 0 0 20px;
+    top: 0;
+  }
+
+  .main {
+    top: 0;
+    margin: 10px 20px 0px 20px;
+  }
+
+  .name {
+    font-size: 20px;
+  }
+
+  .avatar-img {
+
+    width: 110px;
+  }
+
+  .social-title {
+    font-size: 20px;
+  }
+
+  .social-info {
+    margin: 0;
+    font-size: 15px;
+  }
+
+  .navbar {
+    font-size: 15px;
+    top: 12px;
+    margin-right: 22px;
+  }
+
+  .project-item {
+    flex: 1 1;
+    margin: 6px;
+
+  }
+}
+
 @media screen and (max-width: 768px) {
 
   body {
