@@ -9,6 +9,7 @@
   <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
   <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 
+
 </head>
 
 <body>
@@ -26,8 +27,12 @@
 
         <div class="contact-info">
           <p class="contact-title">Email</p>
-          <a href="mailto:jose.a.c.lopez@gmail.com" class="contact-email"><ion-icon name="mail-outline"></ion-icon>
-            jose.a.c.lopez@gmail.com</a><br>
+          <span>
+            <a href="mailto:jose.a.c.lopez@gmail.com" class="contact-email">
+              <ion-icon name="mail-outline"></ion-icon>
+              jose.a.c.lopez@gmail.com
+            </a><ion-icon id="copyEmail" class="copy-email" name="copy-outline"></ion-icon><br>
+          </span>
 
           <div class="social-info">
             <p class="social-title">Social</p>
@@ -168,12 +173,9 @@
         </form>
       </section>
     </article>
-
-
   </main>
 
-
-
+  <script src="/js/script.js"></script>
 </body>
 
 </html>
