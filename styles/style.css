@@ -30,7 +30,6 @@ body {
   border-radius: 25px;
   margin: 0px 20px 0px 250px;
   width: 750px;
-
 }
 
 .avatar-img {
@@ -376,3 +375,35 @@ iframe {
 
 
 /*Responsive */
+
+@media screen and (max-width: 768px) {
+
+  body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .asidebar {
+    width: 100%;
+    margin: 0;
+    position: relative;
+    top: 0;
+  }
+
+  .main {
+    width: 100%;
+    margin: 0;
+  }
+
+  .navbar {
+    position: relative;
+    top: -20px;
+    right: -244px;
+    width: 500px;
+
+  }
+
+}
