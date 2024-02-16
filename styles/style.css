@@ -162,7 +162,10 @@ ul.menu-navbar ion-icon {
 
 }
 
+.menu-btn:hover {
+  color: rgb(255, 136, 0);
 
+}
 
 /* Estilo para el navbar */
 
@@ -191,8 +194,7 @@ ul.menu-navbar ion-icon {
   margin-bottom: 20px;
 }
 
-.header-about,
-.header-about-tecnologias {
+.headers {
   color: rgb(255, 136, 0);
   font-weight: bold;
   font-size: 35px;
@@ -261,6 +263,53 @@ span h4 {
 }
 
 
+
+/*Proyectos*/
+
+.list-projects {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+
+}
+
+.project-item {
+  flex: 1 0 calc(33.33% - 20px);
+  margin: 10px;
+  border-radius: 20px;
+
+}
+
+/* Estilo para las imágenes de los proyectos (puedes adaptarlo según tus necesidades) */
+.project-item img {
+  width: 250px;
+  /* Tamaño fijo para todas las imágenes */
+  height: 200px;
+  /* Tamaño fijo para todas las imágenes */
+  object-fit: cover;
+  border-radius: 25px;
+  box-shadow: rgba(247, 185, 104, 0.678) 0px 0px 15px 1px;
+  cursor: pointer;
+}
+
+/* Efecto de zoom al pasar el ratón */
+.project-item:hover img {
+  transform: scale(1.2);
+  /* Hacemos que la imagen se agrande un 20% */
+  transition: transform 0.5s cubic-bezier(0.075, 0.82, 0.565, 0.8);
+  /* Transición suave al hacer zoom */
+}
+
+/* Efecto de escala al quitar el ratón */
+.project-item:not(:hover) img {
+  transform: scale(1);
+  /* Volvemos a la escala original */
+  transition: transform 1s cubic-bezier(0.075, 0.82, 0.565, 0.8);
+  /* Transición más lenta al regresar */
+}
+
 /* Contacto */
 
 .mapbox {
@@ -290,7 +339,7 @@ iframe {
 }
 
 .form-title {
-  color: rgb(255, 136, 0);
+  color: rgb(255, 255, 255);
   font-weight: bold;
   font-size: 25px;
   margin-bottom: 20px;

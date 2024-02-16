@@ -53,14 +53,14 @@
   <main class="main">
     <nav class="navbar">
       <ul class="menu-navbar">
-        <li><a href="#contact"><ion-icon name="mail-outline"></ion-icon>Contacto</a></li>
-        <li><a href="#"><ion-icon name="book-outline"></ion-icon>Proyectos</a></li>
-        <li><a href="#sobre-mi"><ion-icon name="home-outline"></ion-icon>Sobre mi</a></li>
+        <li><a class="menu-btn" href="#contact"><ion-icon name="mail-outline"></ion-icon>Contacto</a></li>
+        <li><a class="menu-btn" href="#proyectos"><ion-icon name="book-outline"></ion-icon>Proyectos</a></li>
+        <li><a class="menu-btn" href="#sobre-mi"><ion-icon name="home-outline"></ion-icon>Sobre mi</a></li>
       </ul>
     </nav>
 
     <article class="about">
-      <header class="header-about" id="sobre-mi">Sobre mi</header>
+      <header class="header-about headers" id="sobre-mi">Sobre mi</header>
       <p class="text-about">Desde que comencé mi viaje en el mundo del desarrollo, he descubierto una pasión innegable
         por la creación de
         aplicaciones web y software. Disfruto enormemente del proceso de convertir ideas en productos tangibles y
@@ -75,7 +75,7 @@
         ¡Espero poder
         colaborar contigo y llevar tus ideas al siguiente nivel!</p>
 
-      <header class="header-about-tecnologias">Tecnologías</header>
+      <header class="header-about-tecnologias headers">Tecnologías</header>
       <div class="tecnologias">
 
         <div class="front-end">
@@ -115,6 +115,19 @@
           </div>
         </div>
       </div>
+
+      <header class="header-projects headers" id="proyectos">Proyectos</header>
+      <div class="projects">
+        <ul class="list-projects">
+          <li class="project-item"><img src="/img/novasound.png" alt="Proyecto 1"></li>
+          <li class="project-item"><img src="/img/simpson-pasapalabra.png" alt="Proyecto 2"></li>
+          <li class="project-item"><img src="/img/novasound.png" alt="Proyecto 3"></li>
+          <li class="project-item"><img src="/img/simpson-pasapalabra.png" alt="Proyecto 4"></li>
+          <li class="project-item"><img src="/img/novasound.png" alt="Proyecto 5"></li>
+          <li class="project-item"><img src="/img/simpson-pasapalabra.png" alt="Proyecto 6"></li>
+        </ul>
+      </div>
+      </div>
     </article>
 
 
@@ -135,12 +148,12 @@
         <form action="#" class="form" data-form>
 
           <div class="input-wrapper">
-            <input type="text" name="fullname" class="form-input" placeholder="Full name">
+            <input type="text" name="name" class="form-input" placeholder="Nombre">
 
             <input type="email" name="email" class="form-input" placeholder="Email">
           </div>
 
-          <textarea name="message" class="form-input" placeholder="Your Message"></textarea>
+          <textarea name="message" class="form-input" placeholder="Tu mensaje"></textarea>
 
           <button class="form-btn" type="submit" disabled data-form-btn>
             <ion-icon name="paper-plane"></ion-icon>
