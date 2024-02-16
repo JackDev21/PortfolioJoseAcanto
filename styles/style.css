@@ -401,7 +401,7 @@ iframe {
 
   .asidebar {
     max-height: calc(111vh - 100px);
-    min-width: calc(60vh - 100px);
+    min-width: calc(58vh - 100px);
     margin: 10px 0 0 20px;
     top: 0;
   }
