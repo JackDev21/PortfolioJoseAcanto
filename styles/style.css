@@ -56,7 +56,7 @@ body {
   padding: 5px 10px;
   border-radius: 5px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-  width: 250px;
+  width: auto;
 }
 
 .contact-title,
@@ -471,6 +471,107 @@ iframe {
     right: -244px;
     width: 500px;
 
+  }
+
+}
+
+@media screen and (max-width: 375px) {
+
+  .asidebar {
+    position: relative;
+    width: 355px;
+    margin-top: 15px;
+  }
+
+  .contact-email {
+    font-size: 15px;
+  }
+
+  .social-info {
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 5px;
+    left: -55px;
+  }
+
+  .social-info a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    font-size: 15px;
+  }
+
+  .social-title {
+    display: flex;
+    align-items: center;
+    margin: 10px 20px 0 0;
+  }
+
+  .info-aside {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: row;
+  }
+
+  .avatar-img {
+    width: 95px;
+    position: relative;
+    left: 15px;
+  }
+
+  body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .main {
+    position: relative;
+  }
+
+  a {
+    font-size: 10px;
+  }
+
+  .navbar {
+    position: relative;
+    top: -21px;
+    right: -56px;
+    width: 295px;
+  }
+
+  ul.menu-navbar {
+    gap: 15px;
+  }
+
+  .tecnologias {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .headers {
+    margin-top: 15px;
+  }
+
+  .project-item img {
+    width: 140px;
+
+  }
+
+  .content-info {
+    width: 240px;
+  }
+
+  .title {
+    font-size: 15px;
+    position: relative;
+    left: 10px;
   }
 
 }
