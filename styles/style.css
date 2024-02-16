@@ -482,7 +482,7 @@ iframe {
     position: relative;
     width: 90%;
     margin-top: 15px;
-    left: 1px;
+    left: -10px;
   }
 
   .contact-email {
