@@ -546,8 +546,8 @@ iframe {
   .navbar {
     position: relative;
     top: -21px;
-    right: -38px;
-    width: 295px;
+    right: -20px;
+    width: 100%;
   }
 
   ul.menu-navbar {
