@@ -9,12 +9,12 @@ function copyToClipboard(text) {
 }
 
 // Obtén el elemento del enlace
-var emailLink = document.querySelector(".contact-email");
+const emailLink = document.querySelector(".contact-email");
 // Obtén el contenido del enlace (dirección de correo electrónico)
-var emailAddress = emailLink.href;
+const emailAddress = emailLink.href;
 
 // Obtén el ícono de copiar
-var copyIcon = document.getElementById("copyEmail");
+const copyIcon = document.querySelector("#copyEmail");
 
 // Agrega un controlador de eventos clic al ícono de copiar
 copyIcon.addEventListener("click", function () {
