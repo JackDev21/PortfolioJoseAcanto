@@ -475,17 +475,18 @@ iframe {
   }
 
   .contact-email {
-    font-size: 15px;
+    font-size: 14px;
   }
 
   span {
     display: flex;
     width: 254px;
     margin: 0 0 20px 20px;
-
   }
 
-
+  .contact-info ion-icon {
+    font-size: 20px;
+  }
 
   .social-info {
     display: flex;
