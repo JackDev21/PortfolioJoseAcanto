@@ -478,6 +478,15 @@ iframe {
     font-size: 15px;
   }
 
+  span {
+    display: flex;
+    width: 254px;
+    margin: 0 0 20px 20px;
+
+  }
+
+
+
   .social-info {
     display: flex;
     position: relative;
@@ -512,7 +521,7 @@ iframe {
   .avatar-img {
     width: 95px;
     position: relative;
-    left: 15px;
+    left: 10px;
   }
 
   body {
