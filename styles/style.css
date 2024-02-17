@@ -475,12 +475,12 @@ iframe {
   }
 
   .contact-email {
-    font-size: 14px;
+    font-size: 12px;
   }
 
   span {
     display: flex;
-    width: 254px;
+    width: 210px;
     margin: 0 0 20px 20px;
   }
 
