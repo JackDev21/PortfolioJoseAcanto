@@ -472,6 +472,7 @@ iframe {
   }
 
   .navbar {
+    position: absolute;
     font-size: 15px;
     top: 12px;
     margin-right: 112px;
@@ -510,7 +511,7 @@ iframe {
   .navbar {
     position: absolute;
     top: 735px;
-    right: -19px;
+    right: -110px;
     width: 404px;
   }
 
