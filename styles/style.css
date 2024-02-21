@@ -494,6 +494,7 @@ iframe {
     justify-content: center;
     align-items: center;
     gap: 20px;
+    margin: 20px;
   }
 
   .asidebar {
@@ -510,9 +511,9 @@ iframe {
 
   .navbar {
     position: absolute;
-    top: 735px;
-    right: -110px;
-    width: 404px;
+    top: 754px;
+    right: -91px;
+    width: 404px px;
   }
 
 }
