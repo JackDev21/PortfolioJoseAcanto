@@ -380,7 +380,10 @@ iframe {
   color: whitesmoke;
   font-weight: bold;
   cursor: pointer;
+  font-size: 25px;
+  gap: 10px;
 }
+
 
 .form-btn:hover {
   background-color: rgba(255, 136, 0, 0.9);
