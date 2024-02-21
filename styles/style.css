@@ -110,6 +110,10 @@ a {
   margin-top: 2px;
 }
 
+.contact-email:hover {
+  color: rgb(255, 136, 0);
+}
+
 #copyEmail {
   font-size: 16px;
   cursor: pointer;
@@ -125,6 +129,11 @@ a {
   flex-direction: column;
   margin: 20px 0 0px 0;
   gap: 2px;
+  text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.5);
+}
+
+.social-info a:hover {
+  color: rgb(255, 136, 0);
 }
 
 /* Iconos Contacto  */
@@ -290,7 +299,6 @@ span h4 {
   background-size: auto;
   background-position: center;
   border-radius: 25px;
-  box-shadow: rgba(255, 255, 255, 0.300) 0px 0px 15px 1px;
   cursor: pointer;
   position: relative;
 
@@ -624,5 +632,11 @@ iframe {
     left: 10px;
   }
 
+  .overlay {
+    max-width: 130px;
+    right: -5px;
+    max-height: 130px;
+
+  }
 
 }
