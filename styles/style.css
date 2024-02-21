@@ -129,7 +129,7 @@ a {
   flex-direction: column;
   margin: 20px 0 0px 0;
   gap: 2px;
-  text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.5);
+
 }
 
 .social-info a:hover {
@@ -252,7 +252,6 @@ span h4 {
   max-width: 100%;
   border-radius: 20px;
   background-color: rgba(245, 233, 220, 0.678);
-  box-shadow: rgba(252, 143, 0, 0.678) 0px 0px 15px 1px;
 }
 
 .logo {
