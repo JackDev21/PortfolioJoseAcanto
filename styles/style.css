@@ -533,6 +533,7 @@ iframe {
     font-size: 22px;
   }
 
+
   .contact-email {
     font-size: 12px;
   }
@@ -541,6 +542,20 @@ iframe {
     display: flex;
     width: 210px;
     margin: 0 0 20px 20px;
+  }
+
+  .form-btn {
+    font-size: 25px;
+    padding: 5px;
+  }
+
+  .form-btn span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    margin: 10px;
+    width: 25%;
   }
 
   .contact-info ion-icon {
