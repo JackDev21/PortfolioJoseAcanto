@@ -508,11 +508,10 @@ iframe {
   }
 
   .navbar {
-    position: relative;
-    top: -20px;
-    right: -244px;
-    width: 500px;
-
+    position: absolute;
+    top: 735px;
+    right: -19px;
+    width: 404px;
   }
 
 }
